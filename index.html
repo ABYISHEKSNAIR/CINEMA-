@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+         <img src="images\realistic-vector-icon-movie-clapper-board_134830-1379.avif" class="logo">
+         <nav>
+            <ul id="menulist">
+                <li><a href=""> Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href=""> Collection</a></li>
+            </ul>
+         </nav>
+         <img src="images\588a6507d06f6719692a2d15.png" class="menu" onclick="togglemenu()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h2> CINEMA WORLD</h2>
+                <br>
+                <button type="button">Enroll Now <img src="images\Arrow_right.svg.png" class="i"></button>
+
+            </div>
+            <div class="col-2">
+            <img src="images\movie-4767888_1280.webp" class="red">  
+            <div class="colour-box"></div> 
+            <div class="add-btn">
+                <img src="images\cart-icon-14.png" >
+                <p><small>Add to cart</small></p>
+            </div>          
+ 
+            </div>
+        </div>
+      <div class="social-links">
+        <img src="https://cdn-icons-png.flaticon.com/512/3670/3670219.png" alt="">
+        <img src="https://seeklogo.com/images/I/instagram-logo-1494D6FE63-seeklogo.com.png" alt="">
+        <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="">
+      </div>
+    </div>
+    <script>
+        var menulist = document.getElementById('menulist');
+        menulist.style.maxHeight = '0px';
+        function togglemenu(){
+            if(menulist.style.maxHeight == '0px')
+            {
+                menulist.style.maxHeight = '130px';
+            }
+            else{
+                menulist.style.maxHeight = '0px';
+            }
+        }
+    </script>
+    <div class="g">
+        <a href="https://abisheks-portfolio.netlify.app/">Created by abiyee</a>
+    </div>
+    
+   
+</body>
+</html>
